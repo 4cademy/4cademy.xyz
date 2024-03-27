@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Page() {
     return(
         <main className="flex min-h-screen flex-col items-center p-24">
@@ -8,22 +10,71 @@ export default function Page() {
                 </h1>
             </div>
 
-            <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+            <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
                 <a
-                    href="/intern-history-series"
+                    href="https://uplink.wtf/basedmanagement/mintboard/post/2329?referrer=0x8A71Ff60cdEA561bb55cF3Db269c58C338a07445"
                     className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <h2 className={`mb-3 text-2xl font-semibold`}>
                         #1 The internship program goes live{" "}
-                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                        <span
+                            className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                   -&gt;
                 </span>
                     </h2>
-                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                        Find the Based Management Intern History Series NFTs here.
-                    </p>
+                    <Image
+                        src="/Intern_History_1.png"
+                        width={500}
+                        height={500}
+                        className=""
+                        alt="Intern_History_1"
+                    />
+                </a>
+
+                <a
+                    href="https://uplink.wtf/basedmanagement/mintboard/post/2423?referrer=0x8A71Ff60cdEA561bb55cF3Db269c58C338a07445"
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <h2 className={`mb-3 text-2xl font-semibold`}>
+                        #2 The first NFT on the Mintboard{" "}
+                        <span
+                            className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                  -&gt;
+                </span>
+                    </h2>
+                    <Image
+                        src="/Intern_History_2.png"
+                        width={500}
+                        height={500}
+                        className=""
+                        alt="Intern_History_2"
+                    />
+                </a>
+
+                <a
+                    href="https://uplink.wtf/basedmanagement/mintboard/post/2702?referrer=0x8A71Ff60cdEA561bb55cF3Db269c58C338a07445"
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <h2 className={`mb-3 text-2xl font-semibold`}>
+                        #3 The first Official Intern card is minted{" "}
+                        <span
+                            className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                  -&gt;
+                </span>
+                    </h2>
+                    <Image
+                        src="/Intern_History_3.png"
+                        width={500}
+                        height={500}
+                        className=""
+                        alt="Intern_History_3"
+                    />
                 </a>
             </div>
         </main>
