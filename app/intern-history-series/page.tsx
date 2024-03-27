@@ -62,7 +62,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                 >
                     <h2 className={`mb-3 text-2xl font-semibold`}>
-                        #3 The first Official Intern card is minted{" "}
+                        #3 The first Official Intern Card is minted{" "}
                         <span
                             className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                   -&gt;
